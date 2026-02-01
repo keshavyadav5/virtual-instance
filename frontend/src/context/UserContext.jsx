@@ -4,7 +4,7 @@ import axios from 'axios'
 export const userDataContext = createContext()
 
 const UserContext = ({ children }) => {
-  const serverUrl = "http://localhost:8000"
+  const serverUrl = "https://virtual-instance-backend.onrender.com"
   const [userData, setUserData] = useState(null)
   const [selectedImage, setSelectedImage] = useState(null)
   const [uploadedImage, setUploadedImage] = useState(null)
