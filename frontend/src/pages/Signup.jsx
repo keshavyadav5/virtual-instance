@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom"
 import bg from "../assets/authPg.png"
 import { useContext, useState } from "react"
-import { userDataContext } from "../context/userContext"
+import { userDataContext } from "../context/UserContext"
 import axios from 'axios'
 
 const Signup = () => {
