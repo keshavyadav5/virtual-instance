@@ -10,7 +10,7 @@ import cors from 'cors'
 import geminiResponse from './gemini.js'
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://virtual-instance-frontend.onrender.com",
   credentials: true
 }))
 app.use(express.json())
