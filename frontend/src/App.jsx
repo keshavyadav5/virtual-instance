@@ -7,7 +7,7 @@ import Customize from './pages/Customize'
 import NextCustomize from './pages/NextCustomize'
 import Home from './pages/Home'
 
-import { userDataContext } from './context/userContext'
+import { userDataContext } from './context/UserContext'
 
 const ProtectedRoute = ({ children }) => {
   const { userData } = useContext(userDataContext)
